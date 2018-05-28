@@ -114,7 +114,7 @@ class TestDBHelper():
               "title varchar(500) unique ," \
               "content TEXT," \
               "url varchar(200)," \
-              "type varchar(50)," \
+              "type varchar(200)," \
               "created TIMESTAMP DEFAULT CURRENT_TIMESTAMP" \
               ")" % table_name
         self.dbHelper.createTable(sql)

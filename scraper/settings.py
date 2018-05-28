@@ -102,10 +102,12 @@ ITEM_PIPELINES = {
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-MYSQL_DBNAME = 'info_db'
 
-# 关于数据库的配置
-MYSQL_HOST = 'niracler.com'
+
+# 关于云成数据库的配置
+MYSQL_DBNAME = 'info_db'
+MYSQL_HOST = 'antonio.net.cn'
 MYSQL_USER = 'root'
-MYSQL_PASSWD = '12345678'
+MYSQL_PASSWD = '159258'
 MYSQL_PORT = 3306
+

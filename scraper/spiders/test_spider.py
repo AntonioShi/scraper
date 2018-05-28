@@ -37,7 +37,7 @@ class Spider(scrapy.Spider):
 
     # 这里是如何处理你爬取回来的信息
     def parse(self, response):
-        # pass
+        #pass
         yield scrapy.Request(self.rule.url, callback=self.parses[self.rule.type])
 
     # 关于图片的爬取
